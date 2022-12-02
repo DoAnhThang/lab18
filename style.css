@@ -1,5 +1,5 @@
 body::before {
-  display: block;
+  display: block; /* đẩy carousel xuống để ko bị navbar che mất 1 phần */
   content: "";
   height: 56px;
 }
@@ -9,19 +9,19 @@ body::before {
 }
 
 .bg-img1 {
-  background-color: #000;
+  /* background-color: #000; */
   background-size: cover;
   background-image: url("https://i.pinimg.com/originals/60/c1/43/60c143c5a7e8c9cccae51f5aebda73c0.jpg");
 }
 
 .bg-img2 {
-  background-color: #000;
+  /* background-color: #000; */
   background-size: cover;
   background-image: url("https://i.pinimg.com/originals/16/41/bf/1641bff1a05661e5b82044cdcf824c75.jpg");
 }
 
 .bg-img3 {
-  background-color: #000;
+  /* background-color: #000; */
   background-size: cover;
   background-image: url("https://i.pinimg.com/originals/5c/a0/45/5ca0457ebb08e6fc41830e0610e4c2b3.jpg");
 }

@@ -47,7 +47,7 @@
               <li class="nav-item">
                 <a
                   href="#"
-                  class="nav-link disable"
+                  class="nav-link disabled"
                   tabindex="-1"
                   aria-disable="true"
                   >Disabled</a
@@ -74,6 +74,7 @@
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
       <!-- Khối nội dung bên trong -->
       <div class="carousel-inner">
+        <!-- 1st slide -->
         <div class="carousel-item active bg-img1">
           <div class="container">
             <div class="carousel-caption text-start">
@@ -88,6 +89,8 @@
             </div>
           </div>
         </div>
+
+        <!-- 2nd slide -->
         <div class="carousel-item bg-img2">
           <div class="container">
             <div class="carousel-caption">
@@ -100,6 +103,8 @@
             </div>
           </div>
         </div>
+
+        <!-- 3rd slide -->
         <div class="carousel-item bg-img3">
           <div class="container">
             <div class="carousel-caption text-end">
@@ -122,9 +127,9 @@
           type="button"
           data-bs-target="#myCarousel"
           data-bs-slide-to="0"
+          aria-label="Slide 1"
           class="active"
           aria-current="true"
-          aria-label="Slide 1"
         ></button>
         <button
           type="button"
@@ -150,6 +155,7 @@
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
+
       <button
         class="carousel-control-next"
         type="button"
